@@ -1,0 +1,68 @@
+﻿body {
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(14, 40px);
+}
+section.title_bar {
+    grid-column: 1/ span 6;
+    background-color: #474E5D;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #DFDED1;
+}
+section.Title_Image1 {
+    grid-column: 1/ span 4;
+    /*background-image: url('images/tuscany-villas-sant-anna.jpg');*/
+    /*background-size: cover;*/
+    height: 348px;
+}
+section.Title_Image2 {
+    grid-column: 5/ span2;
+    /*background-image: url('images/Versilia.jpg');*/
+    /*background-size: cover;*/
+    height: 348px;
+}
+section.Locations {
+    grid-column: 1 /span 6;
+    background-color: #474E5D;
+    height: 100px;
+    text-align: center;
+    color: #DFDED1;
+}
+section.Location1_text {
+    grid-column: 1 / span 4;
+    background-position:right;
+    text-align:left;
+    height: 500px;
+}
+section.Location1_pic {
+    grid-column: 4 / span 2;
+    float: right;
+    
+}
+section.Location2_text {
+    grid-column: 1 / span 4;
+    background-position: right;
+    text-align: left;
+    height: 500px;
+}
+section.Location2_pic {
+    grid-column: 4 / span 2;
+    background-position: right;
+    text-align: left;
+    height: 500px;
+}
+section.Location3_text {
+    grid-column: 1 / span 4;
+    background-position: right;
+    text-align: left;
+    height: 500px;
+}
+section.Location3_pic {
+    grid-column: 4 / span 2;
+    background-position: right;
+    text-align: left;
+    height: 500px;
+}
+/*color to use: 474E5D for grey, and DFDED1 for white*/
