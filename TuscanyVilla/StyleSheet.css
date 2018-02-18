@@ -28,14 +28,9 @@ section.Title_Image1 {
     /*background-size: cover;*/
     /*height: 348px;*/
 }
+section.marginControl {
 
-section.Title_Image2 {
-    grid-column: 5/ span2;
-    /*background-image: url('images/Versilia.jpg');*/
-    /*background-size: cover;*/
-    /*height: 348px;*/
 }
-
 section.Locations {
     grid-column: 1 /span 6;
     background-color: #474E5D;
