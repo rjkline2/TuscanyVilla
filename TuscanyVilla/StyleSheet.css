@@ -3,8 +3,9 @@
 
 .container {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(6);
     /*grid-template-rows: repeat(14, 40fr);*/
+   
 }
 
 section.title_bar {
@@ -49,6 +50,7 @@ section.Location2 {
     background-position: right;
     text-align: left;
     height: 500px;
+
 }
 
 section.Location3 {
@@ -95,6 +97,7 @@ section.AmenitiesGrid6 {
     grid-column: 5 / span 2;
     height: 348px;
     width: 348px;
+    background-color: #474E5D;
 }
 section.AmenitiesGrid7 {
     grid-column: 1 / span 2;
@@ -110,6 +113,7 @@ section.AmenitiesGrid9 {
     grid-column: 5 / span 2;
     height: 348px;
     width: 348px;
+    background-color: #474E5D;
 }
 section.Reviews {
     grid-column: 1 / span 6;
