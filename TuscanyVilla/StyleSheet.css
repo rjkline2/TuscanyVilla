@@ -76,50 +76,50 @@ section.Amenities {
 }
 section.AmenitiesGrid1 {
     grid-column: 1 / span 2;
-    /*height: 348px;
-    width: 348px;*/
+    width: 300px;
 }
 section.AmenitiesGrid2 {
     grid-column: 3 / span 2;
-    /*height: 348px;
-    width: 348px;*/
+    
+    width: 300px;
 }
 section.AmenitiesGrid3 {
     grid-column: 5 / span 2;
-    /*height: 348px;
-    width: 348px;*/
+    
+    width: 300px;
 }
 section.AmenitiesGrid4 {
     grid-column: 1 / span 2;
-    /*height: 348px;
-    width: 348px;*/
+   
+    width: 300px;
 }
 section.AmenitiesGrid5 {
     grid-column: 3 / span 2;
-    /*height: 348px;
-    width: 348px;*/
+    
+    width: 300px;
 }
 section.AmenitiesGrid6 {
     grid-column: 5 / span 2;
-    /*height: 348px;
-    width: 348px;*/
+    
+    width: 300px;
     background-color: #474E5D;
 }
 section.AmenitiesGrid7 {
     grid-column: 1 / span 2;
-    /*height: 348px;
-    width: 348px;*/
+    
+    width: 300px;
 }
 section.AmenitiesGrid8 {
     grid-column: 3 / span 2;
-    /*height: 348px;
-    width: 348px;*/
+    
+    width: 300px;
+    background-color: #474E5D;
 }
 section.AmenitiesGrid9 {
     grid-column: 5 / span 2;
-    /*height: 348px;
-    width: 348px;*/
-    background-color: #474E5D;
+    
+    width: 300px;
+    
 }
 section.Reviews {
     grid-column: 1 / span 6;
