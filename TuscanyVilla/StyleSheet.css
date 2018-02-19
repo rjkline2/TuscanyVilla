@@ -225,6 +225,7 @@ section.RevCarousel {
     grid-column: 1 /span 11;
     
 }
+/*BEGIN carousel CODE*/
 .slider {
     max-width: 300px;
     height: 200px;
@@ -239,24 +240,24 @@ section.RevCarousel {
 }
 
 .slide1 {
-    background: url(http://media.dunkedcdn.com/assets/prod/40946/580x0-9_cropped_1371566801_p17tbs0rrjqdt1u4dnk94fe4b63.jpg)no-repeat center;
+    background: url(http://www.snarkywisdom.co.uk/wp-content/uploads/2014/11/flexible.jpg)no-repeat center;
     background-size: cover;
-    animation: fade 8s infinite;
-    -webkit-animation: fade 8s infinite;
+    animation: fade 12s infinite;
+    -webkit-animation: fade 12s infinite;
 }
 
 .slide2 {
-    background: url(http://media.dunkedcdn.com/assets/prod/40946/580x0-9_cropped_1371565525_p17tbqpu0d69c21hetd77dh483.jpeg)no-repeat center;
+    background: url(https://soloquotes.com/wp-content/uploads/2017/12/1512679408_most-funny-quotes-26-funny-and-snarky-quotes-sarcasm-lol-funnyquotes-funnysayings.jpg)no-repeat center;
     background-size: cover;
-    animation: fade2 8s infinite;
-    -webkit-animation: fade2 8s infinite;
+    animation: fade2 12s infinite;
+    -webkit-animation: fade2 12s infinite;
 }
 
 .slide3 {
-    background: url(http://media.dunkedcdn.com/assets/prod/40946/580x0-9_cropped_1371564896_p17tbq6n86jdo3ishhta3fv1i3.jpg)no-repeat center;
+    background: url(https://i.pinimg.com/736x/db/09/84/db09842ae59c2068f7e235ca86a38bd6--witty-quotes-quote-funny-sarcastic.jpg)no-repeat center;
     background-size: cover;
-    animation: fade3 8s infinite;
-    -webkit-animation: fade3 8s infinite;
+    animation: fade3 12s infinite;
+    -webkit-animation: fade3 12s infinite;
 }
 
 @keyframes fade {
@@ -312,6 +313,8 @@ section.RevCarousel {
         opacity: 0
     }
 }
+/*END OF carousel CODE*/
+
 section.Contact {
     grid-column: 1 / span 11;
     background-color: #474E5D;
@@ -320,9 +323,16 @@ section.Contact {
     color: #DFDED1;
     text-align: center;
 }
+section.ContactFormInfo {
+    grid-column: 1 / span 6;
+    text-align: center;
+}
 section.ContactForm {
-    grid-column: 1 / span 11;
-    background-color: palevioletred;
+    grid-column: 7 / span 4;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #474E5D1;
+    
 }
 section.Footer {
     grid-column: 1 / span 11;
