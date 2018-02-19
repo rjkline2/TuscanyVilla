@@ -5,7 +5,7 @@
    
     display: grid;
     grid-template-columns: repeat(11, 1fr);
-    grid-template-rows: 50px 300px 125px 35px 300px 35px 300px 35px 300px 35px 125px 35px repeat(3, 300px) 35px 125px;
+    grid-template-rows: 50px 300px 100px 35px 300px 35px 300px 35px 300px 35px 100px 35px repeat(3, 300px) 35px 100px;
     max-width: 1200px;
     margin: auto;
     /*display: grid;
@@ -15,54 +15,73 @@
 }
 
 section.title_bar {
-    grid-column: 1/ span 6;
+    grid-column: 1/ span 11;
     background-color: #474E5D;
     font-family: Arial, Helvetica, sans-serif;
     color: #DFDED1;
-    /*height: 50px;*/
+   
 }
 
 section.Title_Image1 {
-    grid-column: 1/ span 4;
-    /*background-image: url('images/tuscany-villas-sant-anna.jpg');*/
-    /*background-size: cover;*/
-    /*height: 348px;*/
+    grid-column: 1/ span 6;
+    background-image: url('images/titleImage1.jpg');
+    background-size: cover;
+   
+}
+section.Title_Image2 {
+    grid-column: 7 /span 5;
+    background-image: url('images/titleImage2.jpg');
+    background-size: cover;
 }
 section.marginControl {
+    grid-column: 1 / span 11;
 
 }
 section.Locations {
-    grid-column: 1 /span 6;
+    grid-column: 1 /span 11;
     background-color: #474E5D;
     /*height: 100px;*/
     text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
     color: #DFDED1;
 }
 
 section.Location1 {
-    grid-column: 1 / span 6;
-    background-position: right;
+    grid-column: 1 / span 9;
+    margin: 20px;
     text-align: left;
-    /*height: 500px;*/
+
+    
+}
+img.Location1-image {
+    grid-column: 10 /span 2;
+    margin-right: 10px;
+    float: right;
+}
+section.Location2-image {
+    grid-column: 1 / span 4;
+    background-color: #474E5D;
+    
 }
 
 section.Location2 {
-    grid-column: 1 / span 6;
-    background-position: right;
-    text-align: left;
-    /*height: 500px;*/
-
+    grid-column: 5 / span 7;
+    background-color: #474E5D;
+    color: #DFDED1;
 }
 
 section.Location3 {
-    grid-column: 1 / span 6;
-    background-position: right;
+    grid-column: 1 / span 7;
     text-align: left;
-    /*height: 500px;*/
+    
 }
+section.Location3-image {
+    grid-column: 8 / span 4;
 
+}
 section.Amenities {
-    grid-column: 1 / span 6;
+    grid-column: 1 / span 11;
     text-align: center;
     background-color: #474E5D;
     font-family: Arial, Helvetica, sans-serif;
@@ -117,7 +136,7 @@ section.AmenitiesGrid9 {
     
 }
 section.Reviews {
-    grid-column: 1 / span 6;
+    grid-column: 1 / span 11;
     /*height: 50px;*/
     background-color: #474E5D;
     font-family: Arial, Helvetica, sans-serif;
@@ -125,11 +144,11 @@ section.Reviews {
     
 }
 section.Reviews-text {
-    grid-column: 1/ span 6;
+    grid-column: 1/ span 11;
     /*height: 200px;*/
 }
 section.Contact_Form {
-    grid-column: 1 / span 6;
+    grid-column: 1 / span 11;
     /*height: 50px;*/
     background-color: #474E5D;
     font-family: Arial, Helvetica, sans-serif;
@@ -137,11 +156,11 @@ section.Contact_Form {
     
 }
 section.CF_Area {
-    grid-column: 1 / span 6;
+    grid-column: 1 / span 11;
     /*height: 200px;*/
 }
 section.Footer {
-    grid-column: 1/ span 6;
+    grid-column: 1/ span 11;
     background-color: #474E5D;
     font-family: Arial, Helvetica, sans-serif;
     color: #DFDED1;
