@@ -18,6 +18,7 @@ section.title_bar {
     color: #DFDED1;
    
 }
+/*NavBar Section*/
 section.nav-item {
     grid-column: 7 / span 5;
     background-color: #474E5D;
@@ -42,6 +43,8 @@ li {
         margin: 10px;
         
     }
+/*End of NavBar Section*/
+
 section.Title_Image1 {
     grid-column: 1/ span 8;
     background-image: url('images/tuscany-villas-sant-anna.jpg');
@@ -66,6 +69,7 @@ section.LocationBar {
     color: #DFDED1;
     text-align: center;
 }
+/*Button Styling Section*/
 .buttonGeneral {
     background-color: #555555;
     border: none;
@@ -104,6 +108,7 @@ section.LocationBar {
     margin: 120px 60px;
     cursor: pointer;
 }
+/*End of Button Styling Section*/
 
 section.Location1text {
     grid-column: 1 / span 6;
@@ -315,6 +320,7 @@ section.RevCarousel {
 }
 /*END OF carousel CODE*/
 
+/*Contact Form Section*/
 section.Contact {
     grid-column: 1 / span 11;
     background-color: #474E5D;
