@@ -5,7 +5,7 @@
    
     display: grid;
     grid-template-columns: repeat(11, 1fr);
-    grid-template-rows: 50px 300px 100px 300px 300px 300px 100px repeat(3, 300px) 100px 300px 100px 200px;
+    grid-template-rows: 50px 300px 100px 300px 300px 300px 100px repeat(3, 300px) 100px 300px 100px 300px 150px;
     max-width: 1200px;
     margin: auto;
     /*display: grid;
@@ -23,13 +23,13 @@ section.title_bar {
 }
 
 section.Title_Image1 {
-    grid-column: 1/ span 7;
-    background-image: url('images/tuscany-villas-sant-anna.jpg');
+    grid-column: 1/ span 8;
+    background-image: url('images/titleImage1.jpg');
     background-size: cover;
 }
 section.Title_Image2 {
-    grid-column: 8 /span 4;
-    background-image: url('images/Versilia.jpg');
+    grid-column: 9 /span 3;
+    background-image: url('images/titleImage2.jpg');
     background-size: cover;
 }
 section.LocationBar {
@@ -105,4 +105,32 @@ section.Grid9 {
 section.Reviews {
     grid-column: 1 / span 11;
     background-color: #474E5D;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: #DFDED1;
+    text-align: center;
+}
+section.RevCarousel {
+    grid-column: 1 /span 11;
+    background-color: aquamarine;
+}
+section.Contact {
+    grid-column: 1 / span 11;
+    background-color: #474E5D;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: #DFDED1;
+    text-align: center;
+}
+section.ContactForm {
+    grid-column: 1 / span 11;
+    background-color: palevioletred;
+}
+section.Footer {
+    grid-column: 1 / span 11;
+    background-color: #474E5D;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: #DFDED1;
+    text-align: center;
 }
