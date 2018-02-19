@@ -8,99 +8,210 @@
     grid-template-rows: 50px 300px 100px 300px 300px 300px 100px repeat(3, 300px) 100px 300px 100px 300px 150px;
     max-width: 1200px;
     margin: auto;
-    /*display: grid;
-    grid-template-columns: repeat(6);*/
-    /*grid-template-rows: repeat(14, 40fr);*/
-   
+ 
 }
 
 section.title_bar {
-    grid-column: 1/ span 11;
+    grid-column: 1/ span 6;
     background-color: #474E5D;
     font-family: Arial, Helvetica, sans-serif;
     color: #DFDED1;
    
 }
+section.nav-item {
+    grid-column: 7 / span 5;
+    background-color: #474E5D;
+    font-family: Arial, Helvetica, sans-serif;
 
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    
+    margin-left: 175px
+}
+
+li {
+    display: inline;
+}
+
+    li a {
+        text-decoration: none;
+        font-size: 11px;
+        color: white;
+        margin: 10px;
+        
+    }
 section.Title_Image1 {
     grid-column: 1/ span 8;
-    background-image: url('images/titleImage1.jpg');
+    background-image: url('images/tuscany-villas-sant-anna.jpg');
     background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: #DFDED1;
+    text-align: center;
+    padding-top: 70px;
 }
 section.Title_Image2 {
     grid-column: 9 /span 3;
-    background-image: url('images/titleImage2.jpg');
+    background-image: url('images/Versilia.jpg');
     background-size: cover;
 }
+
 section.LocationBar {
     grid-column: 1 / span 11;
     background-color: #474E5D;
-
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: #DFDED1;
+    text-align: center;
 }
+.buttonGeneral {
+    background-color: #555555;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.buttonGeneralWhite {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.buttonOnPic {
+    
+    opacity: 0.9;
+    background-color: #555555;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 120px 60px;
+    cursor: pointer;
+}
+
 section.Location1text {
     grid-column: 1 / span 6;
-    background-color:green;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #474E5D;
+    margin: 10px;
 }
 section.Location1image {
     grid-column: 7 / span 5;
-    background-color: orange;
+    
 }
 section.Location2image {
     grid-column: 1 / span 5;
-    background-color: orange;
+    background-color: #474E5D;
+    padding-left; 20px;
 }
 section.Location2text {
     grid-column: 6 / span 6;
-    background-color: green;
+    background-color: #474E5D;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #DFDED1;
+    padding-right: 20px;
+    
 }
 section.Location3text {
-    grid-column: 1  / span 6;
-    background-color: green;
+    grid-column: 1 / span 6;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #474E5D;
+    margin: 10px;
 }
 section.Location3image {
     grid-column: 7 / span 5;
-    background-color: orange;
+    
 }
 section.Ammenities {
     grid-column: 1 / span 11;
     background-color: #474E5D;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: #DFDED1;
+    text-align: center;
 }
 section.Grid1 {
     grid-column: 2 / span 3;
     background-color: darkblue;
-    
+    background-image: url('images/Grid1.jpg');
+    background-size: cover;
+    text-align: center;
 }
 section.Grid2 {
     grid-column: 5 / span 3;
-    background-color: orange;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #474E5D;
+    padding-top: 70px;
 }
 section.Grid3 {
     grid-column: 8 / span 3;
     background-color: darkblue;
+    background-image: url('images/Grid3.jpg');
+    background-size: cover;
 }
 section.Grid4 {
     grid-column: 2 / span 3;
-    background-color: orange;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #474E5D;
+    padding-top: 70px;
 }
 section.Grid5 {
     grid-column: 5 / span 3;
     background-color: darkblue;
+    background-image: url('images/Grid5.jpg');
+    background-size: cover;
 }
 section.Grid6 {
     grid-column: 8 / span 3;
-    background-color: orange;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #474E5D;
+    padding-top: 70px;
 }
 section.Grid7 {
     grid-column: 2 /span 3;
     background-color: darkblue;
+    background-image: url('images/Grid7.jpg');
+    background-size: cover;
 }
 section.Grid8 {
     grid-column: 5 / span 3;
-    background-color: orange;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #474E5D;
+    padding-top: 70px;
 }
 section.Grid9 {
     grid-column: 8 / span 3;
     background-color: darkblue;
+    background-image: url('images/Grid9.jpg');
+    background-size: cover;
 }
 section.Reviews {
     grid-column: 1 / span 11;
